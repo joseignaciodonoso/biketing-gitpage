@@ -515,7 +515,7 @@ app.bg = {
   }
 };
 
-app.common = {
+app.boxheight = app.common = {
   init: function() {}
 };
 

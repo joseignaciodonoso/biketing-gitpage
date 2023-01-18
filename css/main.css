@@ -52,7 +52,7 @@ select {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 22px;
-  color: #000;
+  color: rgba(6,44,48,0.8);
 }
 a,
 button,
@@ -62,7 +62,7 @@ select {
   transition: 0.2s ease;
 }
 a {
-  color: #231750;
+  color: rgba(6,44,48,0.8);
   text-decoration: none;
 }
 a.a-classic {
@@ -1878,10 +1878,10 @@ article.article--features:hover {
   opacity: 1;
 }
 footer {
-  color: #231750;
+  color: rgba(6,44,48,0.8);
   text-align: center;
   position: relative;
-  background-color: rgba(234,234,234,0.434);
+  background-color: rgba(255,255,255,0.4);
   font-family: 'Inter', sans-serif;
 }
 @media (min-width: 480px) {
@@ -1949,6 +1949,7 @@ footer .footer__wrap .footer__body .footer__info .footer__description {
   }
   footer .footer__wrap .footer__body .footer__info .footer__description {
     text-align: left;
+    color: rgba(6,44,48,0.8);
   }
 }
 footer .footer__wrap .footer__body .footer__social {
@@ -3070,7 +3071,7 @@ header.header--static .header__nav ul li a {
 section {
   position: relative;
   background-color: transparent;
-  color: #231750;
+  color: rgba(6,44,48,0.8);
   border-bottom: 1px solid rgba(255,255,255,0.1);
   overflow: hidden;
   margin: 50px 0px;
@@ -3107,7 +3108,7 @@ section .section__header .section__title {
   position: relative;
   display: block;
   margin-bottom: 20px;
-  color: #c6e201;
+  color: rgba(6,44,48,0.8);
 }
 @media (min-width: 720px) {
   section .section__header .section__title {
@@ -3162,7 +3163,7 @@ section .section__footer {
   text-align: center;
 }
 section .section__footer .section__description {
-  color: #1d008e;
+  color: rgba(6,44,48,0.8);
   font-size: 10px;
   width: 50%;
   line-height: 1.8;
@@ -3171,7 +3172,7 @@ section .section__footer .section__description {
 }
 section .section__content {
   position: relative;
-  color: #231750;
+  color: rgba(6,44,48,0.8);
   line-height: 26px;
   font-size: 15px;
 }
@@ -3452,7 +3453,7 @@ section.section--main .section__wrap .section__body .section__body__body .sectio
   text-align: center;
 }
 section.section--main .section__wrap .section__body .section__body__body .section__content .section__description {
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
 }
 @media (min-width: 720px) {
@@ -3490,6 +3491,9 @@ section.section--media .section__body .section__content {
   background-color: #fff;
   border-radius: 20px;
   padding: 25px;
+}
+section.section--media .section__body .section__content .section__description {
+  font-size: 15px;
 }
 section.section--media .section__body .section__image {
   display: -ms-flexbox;

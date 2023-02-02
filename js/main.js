@@ -515,7 +515,20 @@ app.bg = {
   }
 };
 
-app.boxheight = app.common = {
+app.boxheight = {
+  init: function() {
+    var tallestBox;
+    tallestBox = 0;
+    $('.sameheight').each(function() {
+      if ($(this).height() > tallestBox) {
+        return tallestBox = $(this).height();
+      }
+    });
+    return $('.sameheight').height(tallestBox);
+  }
+};
+
+app.common = {
   init: function() {}
 };
 
